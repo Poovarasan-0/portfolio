@@ -1,0 +1,104 @@
+.menu-bar 
+{
+    background: rgb();
+    background-color: rgba(4, 104, 255, 0.918);
+    text-align:center;
+}.menu-bar 
+{
+    background: rgb();
+    background-color: rgba(4, 104, 255, 0.918);
+    text-align:center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: beige;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: beige;
+}
+.active,.menu-bar ul li:hover
+{
+    background-color: rgb(117, 191, 252);
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Adjust the radius to control the curve */ 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #2980b9; /* Change color on hover */
+}
+
+.icon {
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease; /* Add a transition for smooth animations */
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Add a CSS class for the animation */
+.icon.active {
+    transform: scale(1.2); /* Increase the size */
+    background-color: rgb(9, 108, 189); /* Change background color */
+    color: rgb(14, 13, 13); /* Change text color */
+    border-radius: 100px;
+    height: 47px;
+    width: fit-content;
+}
+.social-icons{
+    margin-left: 80;
+    
+
+}
+.Project  a{
+    background:skyblue;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+.cs{
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+   padding-top: 3px;
+
+}
+#underline a {
+  text-decoration: none;
+}
